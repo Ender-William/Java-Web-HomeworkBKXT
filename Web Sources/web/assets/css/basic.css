@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    text-align: center;
+}
+
+div#head {
+    margin: 0 auto;
+    width: 1200px;
+    height: 150px;
+    background: url(../imgs/header.jpg) no-repeat center center;
+    font-size: 50px;
+    line-height: 150px;
+    color: #FFF;
+}
+
+div#content {
+    margin: 0 auto;
+    padding: 8px 0px;
+    width: 1200px;
+    min-height: 500px;
+    background: #FEEEEE;
+}
+
+div#content::after {
+    content: "";
+    clear: both;
+}
+
+div#left {
+    float: left;
+    width: 320px;
+    min-height: 500px;
+    border: 1px solid #AAA;
+    background: #FFF;
+
+}
+
+div#right {
+    float: right;
+    width: 870px;
+    min-height: 500px;
+    border: 1px solid #AAA;
+    background: #FFF;
+}
+
+div#foot {
+    margin: 0 auto;
+    width: 1200px;
+    height: 80px;
+    background: #0896FC;
+}
+
+div#foot p {
+    height: 80px;
+    line-height: 80px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+h2.title {
+    padding: 0px 15px;
+    background: #2B8EC6 url(../imgs/arrow.jpg) no-repeat 15px center;
+    text-indent: 22px;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    color: #FFF;
+    text-align: left;
+}
+
+#side-nav {
+    padding: 18px;
+}
+
+#side-nav ul li a {
+    text-align: left;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #DDD;
+    text-indent: 10px;
+}
+
+#side-nav ul li.on a {
+    background: #0F6ADE;
+    color: #FFF;
+}
+
+#side-nav ul li a:hover {
+    background: #0F6ADE;
+    color: #FFF;
+}
+
+#top-nav {
+    padding: 0px 15px;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    text-align: right;
+
+}
+
+.fgx {
+    margin: 0 15px;
+    border-bottom: 1px solid #CCC;
+}
+
+.ft {
+    margin: 15px;
+    width: 100%;
+}
+
+.ft tr td {
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.ft td.label {
+    width: 150px;
+    text-align: right;
+}
+
+input.long {
+    width: 400px;
+
+}
+
+button.btn-long {
+    background: url(../imgs/btn-long.gif);
+    width: 100px;
+    height: 20px;
+    color: #222;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.operation {
+    margin: 0px 15px;
+    font-size: 13px;
+    color: #F60;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    border-bottom: 1px solid #F60;
+}
+
+/*数据表格样式*/
+
+.dt {
+    margin: 15px;
+}
+
+.dt table {
+    margin: 5px auto;
+    width: 100%;
+    background: #DDD;
+    border-spacing: 1px;
+
+}
+
+.dt tr th, .dt tr td {
+    background: #FFF;
+    font-size: 12px;
+    color: #333;
+    height: 26px;
+    padding: 4px 6px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.dt tr th {
+    color: #4A71BE;
+    background: #EEE;
+}
+
+.dt tr:hover td {
+    background: #E8EEF7;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.bold {
+    font-weight: bold;
+}
+

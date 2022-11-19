@@ -1,0 +1,10 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<div id="hmenu">
+	<ul>
+		<li><a href="${pageContext.request.contextPath}/stu/logout.do">退出系统</a></li>
+		<li><a href="${pageContext.request.contextPath}/stu/pass.jsp">修改密码</a></li>
+		<li><a href="${pageContext.request.contextPath}/stu/record.do">我的登录历史</a></li>
+		<li>欢迎您：${sessionScope.username }</li>
+
+	</ul>
+</div>
